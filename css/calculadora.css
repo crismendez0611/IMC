@@ -1,0 +1,58 @@
+#contenedor {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+label {
+    color: blue;
+    font-family: "Caprasimo", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+input {
+    color: white;
+    border-radius: 30dvb;
+    font-family: "Caprasimo", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+#resultado {
+    text-decoration: underline;
+
+}
+
+/* Oculta flechas de incremento y decremento */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div {
+    align-items: center;
+}
+
+button {
+    text-align: center;
+    width: 4%;
+    height: 5dvb;
+}
